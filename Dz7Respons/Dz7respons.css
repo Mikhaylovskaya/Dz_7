@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    font-size: 1.5vw;
+}
+header{
+    display: block;
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    height: 50%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.main{
+    display: grid;
+    grid-template-areas: "mainpart asidepart";
+    grid-template-columns: 80% 20%;
+}
+.mainpart{
+    grid-area: mainpart;
+    background-color: rgb(255, 249, 227);
+}
+.ab{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    margin-top: 5%;
+}
+.a{
+    width: 90%;
+    padding: 2.5%;
+    margin: 2.5%;
+    background-color: rgb(254, 234, 184);
+}
+.b{
+    width: 90%;
+    padding: 2.5%;
+    margin: 2.5%;
+    background-color: rgb(254, 234, 184);
+}
+.c{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    padding: 2.5%;
+    margin: 1.2%;
+    background-color: rgb(254, 234, 184);
+}
+.asidepart{
+    grid-area: asidepart;
+    background-color: rgb(221, 236, 203);
+    padding-top: 10%;
+}
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: stretch;
+    background-color: rgb(224, 224, 224);
+    padding: 0.3%;
+}
+.foot{
+    background-color: white;
+    padding: 5%;
+    margin: 2.5%;
+}
